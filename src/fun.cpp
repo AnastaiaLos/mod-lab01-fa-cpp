@@ -1,5 +1,6 @@
 // Copyright 2022 UNN-IASR
 #include "fun.h"
+#include <cctype>
 
 unsigned int faStr1(const char *str) {
         unsigned int quantity = 0;
