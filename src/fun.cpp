@@ -52,8 +52,7 @@ unsigned int faStr2(const char* str) {
 unsigned int faStr3(const char* str) {
     unsigned int allSUM = 0;
     unsigned int words = 0;
-    unsigned int currentLen = 0; 
-
+    unsigned int currentLen = 0;
     for (int i = 0; str[i] != '\0'; i++) {
         if (!isspace(str[i])) {
             currentLen++;
