@@ -33,7 +33,7 @@ unsigned int faStr2(const char* str) {
         if (!isspace(str[k])) {
             if (!meaning) {
                 meaning = true;
-                good = isupper(str[k]); 
+                good = isupper(str[k]);
             } else {
                 if (!islower(str[k])) {
                     good = false;
